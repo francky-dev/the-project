@@ -1,0 +1,474 @@
+.add-libation-btn:hover {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000; 
+    color: #fff; 
+    background-image: url();
+    background-size: cover;  
+    background-position: left; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+
+}
+
+body {
+ 
+    background-image: url(bienvenuimageback.jpg)
+}
+
+header {
+    padding: 20px 30px;
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #e6b800; 
+    margin-right: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    background-color: rgba(175, 164, 164, 0.7); 
+    border-radius: 30px; 
+    padding: 5px; 
+
+}
+
+nav ul li {
+    margin: 8px 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.8rem;
+    padding: 50px 20px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.1); 
+}
+
+nav ul li a.login {
+    background-color: #69CF78; 
+    color: #000;
+    font-weight: bold;
+    padding: 10px 40px;
+}
+
+nav ul li a.login:hover {
+    background-color: #8bc34a; 
+}
+
+section {
+    padding: 80px 30px;
+    margin: 0 auto;
+}
+
+.mid {
+    display: flex;
+    flex-direction: column;
+}
+
+.milieux {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-self: center;
+    position: relative;
+    right:-300px;
+    
+}
+
+.milieux-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: right;
+    color: whitesmoke;
+}
+
+.milieux-description {
+    text-align: right;
+    font-size: 10px;
+    line-height: 1.6;
+    color: whitesmoke;
+    margin-bottom: 40px;
+    
+} 
+
+.milieux-button {
+    background: #2eb6ff;
+    color: white;
+    border: none;
+    width: fit-content;
+    align-self: flex-end;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.milieux-button:hover {
+    background: #1a9fe3;
+}
+
+.show {
+    background: #2eb6ff;
+    color: white;
+    border: none;
+    width: fit-content;
+    align-self: center;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.show:hover {
+    background: #1a9fe3;
+}
+
+.titre1 {
+    text-align: center;
+    margin: 3%;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 70px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 60px;
+
+}
+
+.suite {
+    color: #f0f0f0;
+    font-family: sans-serif;
+    font-family: 1em;
+}
+
+.img {
+    width: auto;
+    height: auto;
+    background-color: #1e1e31;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.fig {
+    text-align: center;
+    color: #f0f0f0;
+}
+
+.line {
+    text-align: center;
+    
+}
+
+.harley {
+    width: 50%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    color: #fff;
+
+
+}
+.harley-boutton{
+    display: inherit;
+    margin: 200px ;
+    color: white;
+    border-radius: 50px;
+}
+
+.harley-boutton button{
+    border-radius: 50px;
+    color: white;
+    background-color: #1a9fe3;
+}
+
+
+
+.hero {
+    
+    background-size: cover;
+    background-position: center;
+    color: #f0f0f0;
+    padding: 150px 30px;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: whitesmoke; 
+}
+
+.hero p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    color: whitesmoke;
+}
+
+.discover-btn {
+    background-color: #00c3ff; 
+    color: white;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.discover-btn:hover {
+    background-color: #0066ff;
+}
+
+.hero-image {
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%);
+    max-width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.ingredients {
+ background-color: rgb(14, 18, 27);
+    border-radius: 40px;
+    margin: 30px;
+    padding: 50px 30px;
+}
+
+.part1 {
+    display: grid;
+    grid-template-columns:  repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    
+   
+}
+
+.ingredient-card {
+    background-color: #1e1e1e;
+    border-radius: 20px;
+    padding: 25px;
+    text-align: left;
+    border: 5px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.ingredient-card.active {
+    border-color: red; 
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.card-header i {
+    font-size: 1.5rem;
+    margin-right: 15px;
+    color: #ccc;
+}
+
+.card-header h3 {
+    font-size: 1.2rem;
+    color: #f0f0f0;
+    margin-right: auto;
+}
+
+.indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.ingredient-card p {
+    font-size: 0.9rem;
+    line-height: 1.7;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.iza1{
+    background: url(bienvenuimageback.jpg) no-repeat center/cover;
+}
+
+.iza2{
+    background: url(bienvenuimageback.jpg) no-repeat center/cover;
+}
+
+
+.add-libation-btn, .remove-btn {
+    background-color: transparent;
+    color: black;
+    border: 1px solid;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.add-libation-btn:hover, .remove-btn:hover {
+    background-color: #333;
+    border-color: #f0f0f0;
+}
+
+.remove-btn {
+    color: black; 
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.remove-btn:hover {
+    background-color: rgba(174, 238, 0, 0.1);
+}
+
+.part2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.build-libation {
+    flex-wrap: wrap;
+    display: inherit;
+    justify-content: space-between;
+}
+
+.build-text h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: #ccc ; 
+    margin-bottom: 10px;
+    flex-direction: row;
+}
+
+.build-text {
+    display: inherit;
+    flex-direction: column;
+    line-height: 0px;
+    font-family: "roboto";
+}
+
+.build1 {
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    color: white;
+}
+
+
+.build2 {
+    font-size: 1rem;
+    color: #87bb92;
+    margin-bottom: 30px;
+}
+
+.element-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+
+.element-buttons button {
+    background: none;
+    color: #f0f0f0;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease,
+     color 0.3s ease;
+    width: 150px;
+}
+
+.bas{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+.element-buttons button.active,
+.element-buttons button:hover {
+    background-color: #46ec7d; 
+    color: #0a0a0a;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #141414;
+    color: #777;
+    font-size: 0.8rem;
+}
+
+@media (max-width:1000px) {
+    .responsive {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width:800px) {
+    .responsive {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width:600px) {
+    .responsive {
+        grid-template-columns:1fr 1fr;
+    }
+}
+
+@media (max-width:368px) {
+    .responsive {
+        grid-template-columns: 1fr;
+    }
+}
